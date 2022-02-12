@@ -1,10 +1,12 @@
 
 body {
-    background-color: rgb(176, 6, 199);
-    background-image:   linear-gradient(rgba(163, 1, 155, 0.5), rgba(54, 153, 247, 0.397)),
-                        url(images/Back\ \(2\).jpg);
+    background-image:   linear-gradient(rgba(163, 1, 155, 0.5), rgba(54, 153, 247, 0.397)), url(images/Back\ \(2\).jpg);
+    background-size:100%;
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+
     font-family: 'Nunito', sans-serif;
 }
 .blurb h2 {
@@ -48,7 +50,7 @@ body {
     transition: all 2s;
 }
 #headingGroup .display-4:hover {
-    font-size: 20px;
+    font-size: 50px;
     
 }
 .navbar.scrolled {
